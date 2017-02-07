@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="asmjit">
+      <UniqueIdentifier>{8b26b5af-5223-4284-8c35-f16f13950268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hookEngine">
+      <UniqueIdentifier>{b47e852b-d637-47c5-abea-8b04bb6ad6e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asmjit\base">
+      <UniqueIdentifier>{e058fb46-bb4a-4265-b568-a8043a178c0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asmjit\x86">
+      <UniqueIdentifier>{d8ffdf81-f64d-419a-b174-4079061ab953}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\FltLpc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\network.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ntos.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\scope_exit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\serviceManagement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\SingleTon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\SocketTcpServer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\TcpSendRecv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\unique_resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="helper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\SocketTcpClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\3rd\asmjit\src\asmjit\apibegin.h">
+      <Filter>asmjit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\3rd\asmjit\src\asmjit\apiend.h">
+      <Filter>asmjit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\3rd\asmjit\src\asmjit\arm.h">
+      <Filter>asmjit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\3rd\asmjit\src\asmjit\asmjit.h">
+      <Filter>asmjit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\3rd\asmjit\src\asmjit\base.h">
+      <Filter>asmjit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\3rd\asmjit\src\asmjit\build.h">
+      <Filter>asmjit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\3rd\asmjit\src\asmjit\host.h">
+      <Filter>asmjit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\3rd\asmjit\src\asmjit\x86.h">
+      <Filter>asmjit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\3rd\asmjit\src\asmjit\base\assembler.h">
+      <Filter>asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\3rd\asmjit\src\asmjit\base\compiler.h">
+      <Filter>asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\3rd\asmjit\src\asmjit\base\compilercontext_p.h">
+      <Filter>asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\3rd\asmjit\src\asmjit\base\compilerfunc.h">
+      <Filter>asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\3rd\asmjit\src\asmjit\base\constpool.h">
+      <Filter>asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\3rd\asmjit\src\asmjit\base\containers.h">
+      <Filter>asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\3rd\asmjit\src\asmjit\base\cpuinfo.h">
+      <Filter>asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\3rd\asmjit\src\asmjit\base\globals.h">
+      <Filter>asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\3rd\asmjit\src\asmjit\base\hlstream.h">
+      <Filter>asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\3rd\asmjit\src\asmjit\base\logger.h">
+      <Filter>asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\3rd\asmjit\src\asmjit\base\operand.h">
+      <Filter>asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\3rd\asmjit\src\asmjit\base\podvector.h">
+      <Filter>asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\3rd\asmjit\src\asmjit\base\runtime.h">
+      <Filter>asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\3rd\asmjit\src\asmjit\base\utils.h">
+      <Filter>asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\3rd\asmjit\src\asmjit\base\vectypes.h">
+      <Filter>asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\3rd\asmjit\src\asmjit\base\vmem.h">
+      <Filter>asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\3rd\asmjit\src\asmjit\base\zone.h">
+      <Filter>asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\3rd\asmjit\src\asmjit\x86\x86assembler.h">
+      <Filter>asmjit\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\3rd\asmjit\src\asmjit\x86\x86compiler.h">
+      <Filter>asmjit\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\3rd\asmjit\src\asmjit\x86\x86compilercontext_p.h">
+      <Filter>asmjit\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\3rd\asmjit\src\asmjit\x86\x86compilerfunc.h">
+      <Filter>asmjit\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\3rd\asmjit\src\asmjit\x86\x86inst.h">
+      <Filter>asmjit\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\3rd\asmjit\src\asmjit\x86\x86operand.h">
+      <Filter>asmjit\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\distorm3.hpp">
+      <Filter>hookEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\HookEngine.h">
+      <Filter>hookEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\native_api.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="helper_dll.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Log.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\network.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\serviceManagement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\SocketTcpServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\TcpSendRecv.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="helper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\SocketTcpClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\3rd\asmjit\src\asmjit\base\assembler.cpp">
+      <Filter>asmjit\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\3rd\asmjit\src\asmjit\base\compiler.cpp">
+      <Filter>asmjit\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\3rd\asmjit\src\asmjit\base\compilercontext.cpp">
+      <Filter>asmjit\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\3rd\asmjit\src\asmjit\base\constpool.cpp">
+      <Filter>asmjit\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\3rd\asmjit\src\asmjit\base\containers.cpp">
+      <Filter>asmjit\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\3rd\asmjit\src\asmjit\base\cpuinfo.cpp">
+      <Filter>asmjit\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\3rd\asmjit\src\asmjit\base\globals.cpp">
+      <Filter>asmjit\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\3rd\asmjit\src\asmjit\base\hlstream.cpp">
+      <Filter>asmjit\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\3rd\asmjit\src\asmjit\base\logger.cpp">
+      <Filter>asmjit\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\3rd\asmjit\src\asmjit\base\operand.cpp">
+      <Filter>asmjit\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\3rd\asmjit\src\asmjit\base\podvector.cpp">
+      <Filter>asmjit\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\3rd\asmjit\src\asmjit\base\runtime.cpp">
+      <Filter>asmjit\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\3rd\asmjit\src\asmjit\base\utils.cpp">
+      <Filter>asmjit\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\3rd\asmjit\src\asmjit\base\vmem.cpp">
+      <Filter>asmjit\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\3rd\asmjit\src\asmjit\base\zone.cpp">
+      <Filter>asmjit\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\3rd\asmjit\src\asmjit\x86\x86assembler.cpp">
+      <Filter>asmjit\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\3rd\asmjit\src\asmjit\x86\x86compiler.cpp">
+      <Filter>asmjit\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\3rd\asmjit\src\asmjit\x86\x86compilercontext.cpp">
+      <Filter>asmjit\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\3rd\asmjit\src\asmjit\x86\x86compilerfunc.cpp">
+      <Filter>asmjit\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\3rd\asmjit\src\asmjit\x86\x86inst.cpp">
+      <Filter>asmjit\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\3rd\asmjit\src\asmjit\x86\x86operand.cpp">
+      <Filter>asmjit\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\3rd\asmjit\src\asmjit\x86\x86operand_regs.cpp">
+      <Filter>asmjit\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\HookEngine.cpp">
+      <Filter>hookEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\distorm3.cpp">
+      <Filter>hookEngine</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
